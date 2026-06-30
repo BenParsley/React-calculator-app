@@ -18,4 +18,22 @@ To save space, the `node_modules` folder is omitted from this repository. Execut
 
 ### 1. Clone the Repository
 ```bash
-git clone [your-repository-url]
+git clone [https://github.com/BenParsley/React-calc-app.git](https://github.com/BenParsley/React-calc-app.git)
+```
+
+### 2. Navigate to the Directory
+```bash
+cd React-calc-app
+```
+
+### 3. Install Dependencies
+Downloads React and all required libraries listed in `package.json` into a new `node_modules` folder.
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+Starts the application. It will automatically open in your default web browser at `http://localhost:3000`.
+```bash
+npm start
+```
