@@ -2,15 +2,22 @@
 
 This project was created using [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# React Calculator App
 
-In the project directory, you can run:
+This project is a React-based calculator application built for the Meta Front-End Developer Professional Certificate.
 
-### `npm install`
-### `npm test`
+## Prerequisites
+Ensure the following software is installed on the host machine:
+* **Node.js**: [Download Node.js](https://nodejs.org/) (includes npm, the package manager)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Local Setup Instructions
+The repository does not include the `node_modules` folder to save space. Follow these steps to reinstall the React dependencies and run the project locally.
 
-## `npm start`
-
+1.  **Clone the repository**
+2.  **Navigate to the project directory**
+3.  **Install dependencies**
+    npm install
+    *Note: This command reads `package.json` and downloads React and all required libraries into a new `node_modules` folder.*
+4.  **Start the development server**
+    npm start
+    *The application will automatically open in the default web browser at `http://localhost:3000`.*
